@@ -8,7 +8,6 @@ exports.getStudents = (req, res, next) => {
     if(err) {
       console.log(err);
     }
-    console.log(result);
-    res.json(result);
+\    res.json(result);
   });
 }
